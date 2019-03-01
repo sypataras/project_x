@@ -1,0 +1,9 @@
+<div class='index_container'>
+  <center>
+  <h1>List of Tickets</h1>
+  <br/>
+  <% @tickets.each do |ticket| %>
+  <p><%= link_to "Ticket #{ticket.request_number}", ticket_path(ticket.id) %></p>
+  <% end %>
+  </center>
+</div>

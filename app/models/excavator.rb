@@ -1,3 +1,3 @@
-class Ticket < ApplicationRecord
+class Excavator < ApplicationRecord
   belongs_to :ticket
 end

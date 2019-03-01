@@ -1,0 +1,20 @@
+<div class="row">
+  <h3>Ticket</h3>
+  <ul>
+    <li>Request Number: <%= @ticket.request_number %></li>
+    <li>Sequence Number: <%= @ticket.sequence_number %></li>
+    <li>Request Type: <%= @ticket.request_type %></li>
+    <li>Response Due Date Time: <%= @ticket.decorate.response_due_data %></li>
+    <li>Primary Service Area Coder: <%= @ticket.primary_sa_code %></li>
+    <li>Additional Service Area Coder: <%= @ticket.decorate.additional_sa_codes %></li>
+  </ul>
+  <h3>Excavator</h3>
+  <ul>
+    <li>Company Name: <%= @ticket.excavator.company_name %></li>
+    <li>Address: <%= @ticket.excavator.address %></li>
+    <li>Crew on Site: <%= @ticket.excavator.crew_on_site %></li>
+  </ul>
+  <div style='width: 800px;'>
+    <div id="map" style='width: 800px; height: 400px;'></div>
+  </div>
+</div>
