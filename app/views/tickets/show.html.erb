@@ -14,6 +14,7 @@
     <li>Address: <%= @ticket.excavator.address %></li>
     <li>Crew on Site: <%= @ticket.excavator.crew_on_site %></li>
   </ul>
+  <div id='coords'  data-coords='<%= @ticket.digsite_info %>'></div>
   <div style='width: 800px;'>
     <div id="map" style='width: 800px; height: 400px;'></div>
   </div>

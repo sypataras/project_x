@@ -18,4 +18,3 @@ class Api::TicketsController < ApplicationController
     Ticket
   end
 end
-AIzaSyAgr9h9dvRhA9EK_KKkwOn3a7_U-qrc5Xs

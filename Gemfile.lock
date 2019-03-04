@@ -90,6 +90,7 @@ GEM
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gmaps4rails (2.1.2)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -136,6 +137,10 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.2.2)
       sprockets-rails (>= 2.0.0)
+    rails-controller-testing (1.0.4)
+      actionpack (>= 5.0.1.x)
+      actionview (>= 5.0.1.x)
+      activesupport (>= 5.0.1.x)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -230,11 +235,13 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   draper
+  gmaps4rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 5.2.2)
+  rails-controller-testing
   rspec-rails (~> 3.8)
   sass-rails (~> 5.0)
   selenium-webdriver
